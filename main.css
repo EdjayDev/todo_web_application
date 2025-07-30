@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+:root {
+  --main-color: brown;
+  --header-color: red;
+  --text-color: maroon;
+}
+/* header */
+nav > ul {
+  width: 50%;
+  display: flex;
+  gap: 1em;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: var(--main-color);
+  padding: 1rem;
+}
+a {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* section
+
+/* todo cards */
+.todo-card {
+  margin: 1rem;
+  background-color: var(--main-color);
+  display: inline-block;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.todo-card > h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.todo-card > ul {
+  list-style-type: none;
+}
+.todo-card ul > li {
+  color: azure;
+}
