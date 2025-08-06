@@ -13,8 +13,12 @@ body {
   --text-color: maroon;
 }
 /* header */
+header {
+  display: flex;
+  justify-content: center;
+}
 nav > ul {
-  width: 50%;
+  width: 100%;
   display: flex;
   gap: 1em;
   justify-content: space-around;
@@ -38,13 +42,13 @@ a {
   margin: 1rem;
   background-color: var(--main-color);
   display: inline-block;
-  width: 50%;
   padding: 0.5rem;
   border-radius: 10px;
+  width: 33.3vw;
 }
-.todo-card > h1 {
+.todo-card > h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: underline;
   text-underline-offset: 1rem;
 }
