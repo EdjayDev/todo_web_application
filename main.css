@@ -12,10 +12,22 @@ body {
   --header-color: red;
   --text-color: maroon;
 }
+#apptitle {
+  color: brown;
+  margin-top: 1rem;
+}
 /* header */
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+nav {
+  margin-top: 1rem;
+  background-color: var(--main-color);
 }
 nav > ul {
   width: 100%;
@@ -24,7 +36,7 @@ nav > ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  background-color: var(--main-color);
+
   padding: 1rem;
 }
 a {
